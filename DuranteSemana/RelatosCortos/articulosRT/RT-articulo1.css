@@ -1,0 +1,367 @@
+/*añadiendofuentes a las paginas*/
+@font-face{
+    font-family: ejemplo1;
+    src: url(../../../letra1.ttf);
+}
+
+
+a{
+    text-decoration: none;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*pertenece al footer*/
+footer {
+    width: 100%;
+    background: #09050d;
+    color: #C7C7C7;
+}
+
+.container-footer-all {
+    width: 100%;
+    max-width: 90%;
+    margin-left: 7%;
+    margin-top: 1%;
+    padding: 40px;
+}
+
+.container-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1 {
+    max-width: 400px;
+
+}
+
+.colum1 h1 {
+    font-size: 22px;
+}
+/*jacques*/
+.colum1 p {
+    font-size: 23px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+.rosseau {
+    text-align: right;
+}
+
+.colum2 {
+    max-width: 30%;
+    width: 100%;
+    padding-left: 7%;
+    margin-left: 0;
+}
+
+.colum2 h1 {
+    font-size: 22px;
+}
+
+.colum2 .row {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img {
+    width: 36px;
+    height: 36px;
+}
+
+.row label {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #C7C7C7;
+}
+
+.container-footer {
+    width: 100%;
+    background: #101010;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.copyright {
+    color: #C7C7C7;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a {
+    text-decoration: none;
+    color: white;
+}
+
+/*PARA EL MENU*/
+header {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 60%;
+    height: 100px;
+    width: 100%;
+    background:#09050d;
+    position: fixed;
+    line-height: 15%;
+}
+.logo img{
+    float: left;
+    max-width: 100%;
+    max-height: 100px;
+    height: 100%;
+    margin-left: 18%;
+}
+header .nav li:hover {
+    background: #32264a;    
+    border-radius: 10px;        
+}
+.nav li a:hover{
+    background: #32264a; 
+}
+
+#header .nav >li{
+    display: inline-block;
+    color: white;
+    text-decoration: none;    
+    line-height: 30px;
+    padding: 5px;
+    font-size:18px;
+    font-weight: bold;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;     
+}
+
+
+#header{
+    width: 1000px;
+    margin: auto;    
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: #09050d;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 10px;
+}  
+.nav > li {
+    float: left;
+}
+.nav li ul {
+    display: none;
+    position: absolute;             
+}
+.nav li:hover > ul{
+    display: block;
+}
+
+
+
+
+.contenido{
+    padding-top: 100px;
+    height: 2600px;
+}
+.contenido p{
+    margin-bottom: 1em;
+}
+
+/*para el articulo*/
+.articulo {
+    max-width: 100%;
+    background: #af9578;
+    height: 100%;
+    margin-top: 0;
+}
+.titulo {
+    float: left;
+    padding-left: 5%;
+    padding-top: 5%;  
+    width: 70%;
+    font-size: 200%;
+}
+.pri-line {
+    width: 100%;
+    padding-top: 10%;
+    margin-left: 5%;
+    font-size: 120%;    
+}
+.fecha {
+    float: left;
+    width: 100%;    
+    font-size: 150%;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+.imagen img{
+    width: 30%;
+    height: 65%;
+    margin-right: 10%;
+    float: right;    
+}
+.texto {
+    float: left;
+    width: 50%;
+    text-align: justify;    
+    padding-top: 0%;
+    font-size: 150%;/*era 200%*/
+    margin-left: 5%;
+    padding-right: 2%;
+}
+/*esto no estaba*/
+.texto p , .texto2 p{
+    font-family: cursive;
+}
+.texto2 {
+    font-size: 150%;
+    text-align: justify;
+    font-family: fantasy;
+    padding-right: 2%;
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+}
+.fuente {
+    width: 30%;
+    float: right;
+    font-size: 120%;
+}
+
+
+/*dimensiones para los dispositivos*/
+@media screen and (max-width: 1310px){
+    
+    /*PARA EL MENU */
+    #header{
+        width: 68%;           
+    }
+    #header .nav > li{
+        font-size: 16px;
+        margin-top: 1%;
+    }
+    
+    /*PARA EL CONTENDO*/
+    /*tamaño de la pagina*/
+    .contenido{
+        max-height: 2000px;
+    }
+    /*tamanaño de letra de y tipo de letra*/
+    .texto p , .texto2 p{
+        font-family: cursive;
+        font-size: 25px;
+    }
+    /*para la fuente*/
+    .fuente{
+        font-size: 20px;
+    }
+    /*imagen */
+    .imagen{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 1250px){    
+    /*PARA EL MENU */
+    #header{
+        width: 70%;           
+    }
+    #header .nav > li{
+        font-size: 14px;
+        margin-top: 1%;
+    }
+    
+    /*PARA EL CONTENDO*/
+    /*tamaño de la pagina*/
+    .contenido{
+        max-height: 1500px;
+    }
+    /*tamanaño de letra de y tipo de letra*/
+    .texto p , .texto2 p{
+        font-family: cursive;
+        font-size: 20px;
+    }
+    /*para la fuente*/
+    .fuente{
+        font-size: 15px;
+    }
+    /*imagen */
+    .imagen{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 1100px){         
+    /*PARA EL MENU */
+    #header{
+        width: 74%;           
+    }
+    #header .nav > li{
+        font-size: 12px;
+        margin-top: 1%;
+    }
+    
+    /*PARA EL CONTENDO*/
+    /*tamaño de la pagina*/
+    .contenido{
+        max-height: 2500px;
+    }
+    /*tamanaño de letra de y tipo de letra*/
+    .texto p , .texto2 p{
+        font-family: cursive;
+        font-size: 20px;
+    }
+    /*para la fuente*/
+    .fuente{
+        font-size: 15px;
+    }
+    /*imagen */
+    .imagen{
+        height: 500px;
+    }
+}
+@media screen and (max-width: 900px){
+    /*PARA EL MENU */
+    #header{
+        width: 74%;           
+    }
+    #header .nav > li{
+        font-size: 12px;
+        margin-top: 2%;
+    }
+    
+    /*PARA EL CONTENDO*/
+    /*tamaño de la pagina*/
+    .contenido{
+        max-height: 1400px;
+    }
+    /*tamanaño de letra de y tipo de letra*/
+    .texto p , .texto2 p{
+        font-family: cursive;
+        font-size: 20px;
+    }
+    /*para la fuente*/
+    .fuente{
+        font-size: 15px;
+    }
+    /*imagen */
+    .imagen{
+        height: 500px;
+    }
+}
+
+

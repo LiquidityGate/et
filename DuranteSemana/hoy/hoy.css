@@ -1,0 +1,472 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 60%;
+    height: 100px;
+    width: 100%;
+    background: #09050d;
+    position: fixed;
+    line-height: 15%;
+}
+.logo img{
+    float: left;
+    max-width: 100%;
+    max-height: 100px;
+    height: 100%;
+    margin-left: 18%;
+}
+header .nav li:hover {
+    background: #32264a;    
+    border-radius: 10px;        
+}
+.nav li a:hover{
+    background: #32264a; 
+}
+
+#header .nav >li{
+    display: inline-block;
+    color: white;
+    text-decoration: none;    
+    line-height: 30px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;     
+}
+#header{
+    width: 1000px;
+    margin: auto;    
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: #09050d;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 10px;
+} 
+.nav > li {
+    float: left;
+}
+.nav li ul {
+    display: none;
+    position: absolute;             
+}
+.nav li:hover > ul{
+    display: block;
+}
+/*quitar las lineas a las redes*/
+a{
+    text-decoration: none;
+}
+
+/*para ponerle mas centrado la imagen principal*/
+.contenido{
+    padding-top: 100px;
+}
+.contenido p{
+    margin-bottom: 1em;
+}
+/*datos y imagen del columnista*/
+.imagen_datos_columnista {
+    width:50%; 
+    height: 10%;
+    background: #09050d;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
+.datos-columnista{
+    width: 60%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    color: white;
+}
+.foto-columnista img {
+    max-width: 100%;
+    width: 20%;
+    float: right;
+    border-radius: 50%;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+.nombre-columnista {
+    text-align: center;font-size: 200%;
+}
+
+/*Sombreado de la vp*/
+.n2:hover{
+    background-color: #f1f1f1; 
+    border-radius: 10px;    
+}
+.n2:hover,.ne, .n1, h2{
+    color: black;
+}
+
+/*carrera*/
+.carrera-columnista {
+    font-size: 125%;
+    text-align: center;
+}
+/*nota*/
+.nota{
+    margin-top: 5%;
+    margin-left: 2%;
+    background: #09050d;
+    width: 85%;
+    border-radius: 1%;
+}
+.nota > p{
+    font-size: 30px;
+    padding-left: 3%;
+    margin-right: 80%;
+    color: #6d6878;    
+}
+.articulos{
+    background: #414141; 
+    margin-left: 5%;
+    float:left;
+    width: 70%; 
+    border-radius: 10px;
+    max-height: 10%;
+    height: 100%;
+    margin-right: 100px;
+}
+.n2{
+    float: right;
+    width: 100%;
+    margin-left: 15%;
+}
+.imgart1{
+    max-width: 220px;
+    float: left;
+    max-height: 5%;
+    height: 165px;
+    border-radius: 5%;
+}
+.letra-previa {
+    color: #d1d1d1;
+    border-radius: 10px;
+}
+h2{
+    margin-left: 4%;
+    font-size: 220%;
+    padding-top: 2%;
+    width: 57%;
+    float: left;
+}
+.n1 {
+    margin-left: 4%; 
+    font-size: 150%;
+    float: left;
+}
+.ne{
+    margin-left: 10%;
+    padding-top: 2%;
+}
+
+
+/*pertenece al footer*/
+footer {
+    width: 100%;
+    background: #09050d;
+    color: #C7C7C7;
+}
+
+.container-footer-all {
+    width: 100%;
+    max-width: 90%;
+    margin-left: 7%;
+    margin-top: 1%;
+    padding: 40px;
+}
+
+.container-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1 {
+    max-width: 400px;
+
+}
+
+.colum1 h1 {
+    font-size: 22px;
+}
+
+/*jacques*/
+.colum1 p {
+    font-size: 15px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.rosseau {
+    text-align: right;
+}
+
+.colum2 {
+    max-width: 30%;
+    width: 100%;
+    padding-left: 7%;
+    margin-left: 0;
+}
+
+.colum2 h1 {
+    font-size: 22px;
+}
+
+.colum2 .row {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img {
+    width: 36px;
+    height: 36px;
+}
+
+.row label {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #C7C7C7;
+}
+
+.container-footer {
+    width: 100%;
+    background: #101010;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.copyright {
+    color: #C7C7C7;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a {
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width: 1310px){
+    
+    #header{
+        width: 70%;        
+    }
+    #header .nav > li{
+        font-size: 16px;
+    }
+    .contenido{
+        max-height: 3000px;
+    }
+    .foto-columnista img{
+        width: 15%;
+        margin-top: 2%;
+    }
+    .imagen_datos_columnista {
+        width:90%; 
+        height: 14%;
+        background: #09050d;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    /*nota*/
+    .nota{
+        padding-top: 5%;
+        padding-left: 2%;
+        background: #09050d;
+        width: 90%;
+        border-radius: 1%;
+        box-sizing: border-box;
+    }
+    .articulos{                        
+        width: 80%;                 
+    }
+    .n2{
+        width: 100%;        
+    }
+    .imgart1{
+        max-width: 180px;
+        float: left;        
+        height: 150px;
+        border-radius: 5%;        
+    }
+    .letra-previa {
+        color: #d1d1d1;
+        border-radius: 10px;
+    }
+    h2{
+        margin-left: 4%;
+        font-size: 170%;
+        padding-top: 2%;
+        width: 40%;
+        float: left;        
+    }
+    .n1 {
+        margin-left: 4%; 
+        font-size: 130%;
+        float: left;
+    }
+    .ne{
+        float: left;
+        margin-left: 20%;
+        padding-top: 2%;
+        width: 10%
+    } 
+    
+}
+
+@media screen and (max-width: 1250px){
+    
+    #header{
+        width: 70%;        
+    }
+    #header .nav > li{
+        font-size: 14px;
+    }
+    .contenido{
+        max-height: 2550px;
+    }
+    .foto-columnista img{
+        width: 15%;
+        margin-top: 2%;
+    }
+    .imagen_datos_columnista {
+        width:90%; 
+        height: 14%;
+        background: #09050d;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    /*nota*/
+    .nota{
+        padding-top: 5%;
+        padding-left: 2%;
+        background: #09050d;
+        width: 90%;
+        border-radius: 1%;
+        box-sizing: border-box;
+    }
+    .articulos{                        
+        width: 80%;                 
+    }
+    .n2{
+        width: 100%;        
+    }
+    .imgart1{
+        max-width: 180px;
+        float: left;        
+        height: 150px;
+        border-radius: 5%;        
+    }
+    .letra-previa {
+        color: #d1d1d1;
+        border-radius: 10px;
+    }
+    h2{
+        margin-left: 4%;
+        font-size: 170%;
+        padding-top: 2%;
+        width: 40%;
+        float: left;        
+    }
+    .n1 {
+        margin-left: 4%; 
+        font-size: 130%;
+        float: left;
+    }
+    .ne{
+        float: left;
+        margin-left: 20%;
+        padding-top: 2%;
+        width: 10%
+    } 
+    
+}
+
+@media screen and (max-width: 1100px){
+    
+    #header{
+        width: 70%;        
+    }
+    #header .nav > li{
+        font-size: 12px;
+    }
+    .contenido{
+        max-height: 2550px;
+    }
+    .foto-columnista img{
+        width: 20%;
+        margin-top: 2%;
+    }
+    .imagen_datos_columnista {
+        width:90%; 
+        height: 14%;
+        background: #09050d;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    /*nota*/
+    .nota{
+        padding-top: 5%;
+        padding-left: 2%;
+        background: #09050d;
+        width: 90%;
+        border-radius: 1%;
+        box-sizing: border-box;
+    }
+    .articulos{                        
+        width: 80%;                 
+    }
+    .n2{
+        width: 100%;        
+    }
+    .imgart1{
+        max-width: 180px;
+        float: left;        
+        height: 150px;
+        border-radius: 5%;        
+    }
+    .letra-previa {
+        color: #d1d1d1;
+        border-radius: 10px;
+    }
+    h2{
+        margin-left: 4%;
+        font-size: 120%;
+        padding-top: 2%;
+        width: 40%;
+        float: left;        
+    }
+    .n1 {
+        margin-left: 4%; 
+        font-size: 100%;
+        float: left;
+    }
+    .ne{
+        float: left;
+        margin-left: 20%;
+        padding-top: 2%;
+        width: 10%
+    }    
+}

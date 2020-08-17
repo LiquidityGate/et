@@ -1,0 +1,394 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;    
+}
+
+/*cinta de quienes somos*/
+.uno {
+    background: #3a1b6d;
+    width: 100%;
+    height: 15%;
+    max-height: 20%;
+}
+.uno-u {    
+    background: #3a1b6d;    
+    float: left;
+    width: 50%;
+    height: 50%;
+    marging: 100px;
+    border-radius: 10px;
+}
+.juntos {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 300%;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.juntos img{
+    width: 35%;
+}
+.uno-n {
+    color: #000019;
+    float: right;    
+    width: 47%;
+    height:100%;
+    background: #3a1b6d;
+    border-radius: 10px;
+    margin-right: 1%;
+    height: 100%;
+    padding-top: 8%;
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 7%;
+}
+.uno-n p{
+    font-size: 200%;    
+}
+
+/*Objetivo General*/
+.dos{
+    font-size: 40px;
+    text-align: center;
+    background: #09050d;
+    color: white;
+    margin-top: 8%;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 20px;  
+    margin-bottom: 8%;
+}
+.ob{
+    text-align: center;
+    margin: 2%;
+    font-size: 50px;
+}
+.ob2{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 80%;
+    font-family: sans-serif;
+    text-align: justify;    
+}
+
+/*Integrantes*/
+.tres{
+    font-size: 400%;
+    text-align: center;
+    background:#3a1b7d;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+header {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 60%;
+    height: 100px;
+    width: 100%;
+    background:#09050d;
+    position: fixed;
+    line-height: 15%;
+}
+.logo img{
+    float: left;
+    max-width: 100%;
+    max-height: 100px;
+    height: 100%;
+    margin-left: 18%;
+}
+header .nav li:hover {
+    background: #32264a;    
+    border-radius: 10px;        
+}
+.nav li a:hover{
+    background: #32264a; 
+}
+
+#header .nav >li{
+    display: inline-block;
+    color: white;
+    text-decoration: none;    
+    line-height: 30px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;     
+}
+
+
+#header{
+    width: 1000px;
+    margin: auto;    
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: #09050d;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 10px;
+}  
+.nav > li {
+    float: left;
+}
+.nav li ul {
+    display: none;
+    position: absolute;             
+}
+.nav li:hover > ul{
+    display: block;
+}
+
+
+/*quitar las lineas a las redes*/
+a{
+    text-decoration: none;
+}
+
+/*para ponerle mas centrado la imagen principal*/
+.contenido{
+    padding-top: 100px;
+}
+.contenido p{
+    margin-bottom: 1em;
+}
+
+/*Integrantes*/
+.columnista{
+    width: 15%;
+    margin-left: 14%;    
+    float: left;    
+    margin-top: 5%;
+}
+.foto img{
+    max-width: 100%;  
+    width: 100%;
+    border-radius: 50%;
+    
+}
+.nombre {
+    margin-top: 10%;    
+    color: white;
+    text-align: center;
+}
+/*listaas*/
+.lista1{
+    width: 100%;
+}
+
+
+
+/*pertenece al footer*/
+footer {
+    width: 100%;
+    background: #09050d;
+    color: #C7C7C7;
+}
+
+.container-footer-all {
+    width: 100%;
+    max-width: 90%;
+    margin-left: 7%;
+    margin-top: 1%;
+    padding: 40px;
+}
+
+.container-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1 {
+    max-width: 400px;
+
+}
+
+.colum1 h1 {
+    font-size: 22px;
+}
+
+/*jacques*/
+.colum1 p {
+    font-size: 15px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.rosseau {
+    text-align: right;
+}
+
+.colum2 {
+    max-width: 30%;
+    width: 100%;
+    padding-left: 7%;
+    margin-left: 0;
+}
+
+.colum2 h1 {
+    font-size: 22px;
+}
+
+.colum2 .row {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img {
+    width: 36px;
+    height: 36px;
+}
+
+.row label {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #C7C7C7;
+}
+
+.container-footer {
+    width: 100%;
+    background: #101010;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.copyright {
+    color: #C7C7C7;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a {
+    text-decoration: none;
+    color: white;
+}
+
+/*ACOMODA A LAS DIMENSIONES DEL DISPOSITIVO*/
+
+@media screen and (max-width: 1310px){
+    
+    #header{
+        width: 70%;        
+    }
+    #header .nav > li{
+        font-size: 16px;
+    }
+    .contenido{
+        max-height: 3000px;
+    }
+    /*objetivo general*/
+    .dos > div > .ob{
+        font-size: 120%;
+    }   
+    .dos > div > .ob2{
+        font-size:90%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    /*Integrantes*/
+    .tres{
+        font-size: 200%;
+        padding-top: 3%;
+        padding-bottom: 1%;
+    }
+    /*uno*/
+    .uno-n p{
+        font-size: 180%;
+        padding-top: 0%;
+    }
+    .juntos{
+        padding-top: 17%;
+    }
+    
+}
+
+@media screen and (max-width: 1250px){
+        
+    #header{
+        width: 70%;        
+    }
+    #header .nav > li{
+        font-size: 14px;
+    }
+    .contenido{
+        max-height: 3000px;
+    }
+    /*objetivo general*/
+    .dos > div > .ob{
+        font-size: 90%;
+    }   
+    .dos > div > .ob2{
+        font-size: 70%;
+    }
+    /*Integrantes*/
+    .tres{
+        font-size: 200%;
+        padding-top: 3%;
+        padding-bottom: 1%;
+    }
+    /*uno*/
+    .uno-n p{
+        font-size: 150%;
+        padding-top: 12%;
+    }
+    .juntos{
+        padding-top: 17%;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    
+    #header{
+        width: 70%;        
+    }
+    #header .nav > li{
+        font-size: 12px;
+    }
+    .contenido{
+        max-height: 2570px;
+    }
+    /*objetivo general*/
+    .dos > div > .ob{
+        font-size: 80%;
+    }   
+    .dos > div > .ob2{
+        font-size: 50%;
+    }
+    /*Integrantes*/
+    .tres{
+        font-size: 200%;
+        padding-top: 3%;
+        padding-bottom: 1%;
+    }
+    /*uno*/
+    .uno-n p{
+        font-size: 120%;
+        padding-top: 12%;
+    }
+    .juntos{
+        padding-top: 17%;
+    }    
+}
+
+
+
